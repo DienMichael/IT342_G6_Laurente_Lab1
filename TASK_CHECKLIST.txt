@@ -1,0 +1,24 @@
+1️⃣ Backend – Spring Boot
+Your backend must include:
+
+POST /api/auth/register                 DONE
+			
+POST /api/auth/login			DONE	
+			
+GET /api/user/me (protected)		IN-PROGRESS
+
+Database connection (MySQL)		DONE
+
+Password encryption (BCrypt)		IN-PROGRESS
+
+2️⃣ Web Application – ReactJS
+Your web app must include:
+
+Register page				TODO
+
+Login page				TODO
+
+Dashboard/Profile page (protected)	TODO
+
+Logout functionality			TODO
+
