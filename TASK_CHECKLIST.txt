@@ -18,7 +18,7 @@ Register page				Done
 
 Login page				Done
 
-Dashboard/Profile page (protected)	TODO
+Dashboard/Profile page (protected)	Done
 
-Logout functionality			TODO
+Logout functionality			In-Progress
 
