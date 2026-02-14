@@ -5,20 +5,20 @@ POST /api/auth/register                 DONE
 			
 POST /api/auth/login			DONE	
 			
-GET /api/user/me (protected)		Done
+GET /api/user/me (protected)		DONE
 
 Database connection (MySQL)		DONE
 
-Password encryption (BCrypt)		Done
+Password encryption (BCrypt)		DONE
 
 2️⃣ Web Application – ReactJS
 Your web app must include:
 
-Register page				Done
+Register page				DONE
 
 Login page				DONE
 
-Dashboard/Profile page (protected)	IN-PROGRESS
+Dashboard/Profile page (protected)	DONE
 
 Logout functionality			IN-PROGRESS
 
