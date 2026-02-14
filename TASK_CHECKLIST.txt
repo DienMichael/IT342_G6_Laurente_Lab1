@@ -9,16 +9,16 @@ GET /api/user/me (protected)		IN-PROGRESS
 
 Database connection (MySQL)		DONE
 
-Password encryption (BCrypt)		IN-PROGRESS
+Password encryption (BCrypt)		Done
 
 2️⃣ Web Application – ReactJS
 Your web app must include:
 
-Register page				TODO
+Register page				Done
 
-Login page				TODO
+Login page				DONE
 
-Dashboard/Profile page (protected)	TODO
+Dashboard/Profile page (protected)	IN-PROGRESS
 
-Logout functionality			TODO
+Logout functionality			IN-PROGRESS
 
