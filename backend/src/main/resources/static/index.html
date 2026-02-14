@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auth Tester</title>
+</head>
+<body>
+<h2>Register User Tester</h2>
+<form id="regForm">
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="text" id="fname" placeholder="First Name" required><br>
+    <input type="text" id="lname" placeholder="Last Name" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password_hash" placeholder="Password" required><br>
+    <select id="role">
+        <option value="GUEST">Guest User</option>
+        <option value="ADMIN">Admin</option>
+    </select><br><br>
+    <button type="submit">Test Registration</button>
+</form>
+
+<p id="response"></p>
+
+<script>
+        document.getElementById('regForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const data = {
+                username: document.getElementById('username').value,
+                fname: document.getElementById('fname').value,
+                lname: document.getElementById('lname').value,
+                email: document.getElementById('email').value,
+                password_hash: document.getElementById('password_hash').value,
+                role: document.getElementById('role').value
+            };
+
+            const res = await fetch('/api/auth/register', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+
+            document.getElementById('response').innerText = await res.text();
+        };
+    </script>
+</body>
+</html>
