@@ -16,9 +16,9 @@ Your web app must include:
 
 Register page				Done
 
-Login page				Done
+Login page				DONE
 
-Dashboard/Profile page (protected)	TODO
+Dashboard/Profile page (protected)	IN-PROGRESS
 
-Logout functionality			TODO
+Logout functionality			IN-PROGRESS
 
