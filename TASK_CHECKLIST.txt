@@ -5,7 +5,7 @@ POST /api/auth/register                 DONE
 			
 POST /api/auth/login			DONE	
 			
-GET /api/user/me (protected)		IN-PROGRESS
+GET /api/user/me (protected)		Done
 
 Database connection (MySQL)		DONE
 
